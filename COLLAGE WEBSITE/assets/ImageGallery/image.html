@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="imagegllery.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="carousel">
+            <ul>
+                <li><img src="CollageImages/IMG-20191031-WA0039.jpg" alt=""></li>
+                <li><img src="CollageImages/IMG-20191031-WA0041.jpg" alt=""></li>
+                <li><img src="CollageImages/img102021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img112021.jpg" alt=""></li>
+                <li><img src="CollageImages/img122021.jpg" alt=""></li>
+                <li><img src="CollageImages/img2021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img22021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img32021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img52021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img62021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img72021.jpeg" alt=""></li>
+                <li><img src="CollageImages/img82021.jpg" alt=""></li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+
+    <script>
+        $('.carousel').flipster({
+            style: 'carousel',
+            spacing: -0.3,
+        });
+    </script>
+</body>
+
+</html>
